@@ -1,4 +1,4 @@
-import app form '/app.js';
+import app from './app.js';
 
 dotenv.config();
 connectDB();
