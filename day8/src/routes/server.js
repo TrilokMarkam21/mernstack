@@ -1,0 +1,10 @@
+import app form '/app.js';
+
+dotenv.config();
+connectDB();
+
+const PORT = process.env.PORT || 8000;
+
+app.listen(PORT, () => {
+    console.log('Server running at http://localhost:${PORT}');
+})
